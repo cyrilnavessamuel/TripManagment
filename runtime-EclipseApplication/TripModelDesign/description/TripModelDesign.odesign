@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="TripModelDesign" version="12.0.0.2017041100">
+  <ownedViewpoints name="TripModelViewpoint" modelFileExtension="*.trip_model">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="TripModelDiagram" domainClass="trip_model::TripModel" enablePopupBars="true">
+      <metamodel href="http://www.example.org/trip_model#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="tripmodelnode" semanticCandidatesExpression="aql:self.trip" domainClass="trip_model::TripModel">
+          <style xsi:type="style:EllipseNodeDescription" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='purple']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="locationnode" semanticCandidatesExpression="aql:self.location" domainClass="trip_model::location">
+          <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='purple']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="travelservicenode" semanticCandidatesExpression="aql:self.trip.service" domainClass="trip_model::TravelService">
+          <style xsi:type="style:LozengeNodeDescription" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="otherservicenode" semanticCandidatesExpression="aql:self.trip.service" domainClass="trip_model::OtherService">
+          <style xsi:type="style:LozengeNodeDescription" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="tripnode" semanticCandidatesExpression="aql:self.trip" domainClass="trip_model::Trip">
+          <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="tripsourceedge" sourceMapping="//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='tripnode']" targetMapping="//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='locationnode']" targetFinderExpression="aql:self.source">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="tripdestinationedge" sourceMapping="//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='tripnode']" targetMapping="//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='locationnode']" targetFinderExpression="aql:self.destination">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='purple']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="travelservicesourceedge" sourceMapping="//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='travelservicenode']" targetMapping="//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='locationnode']" targetFinderExpression="aql:self.source">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="travelservicedestinationedge" sourceMapping="//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='travelservicenode']" targetMapping="//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='locationnode']" targetFinderExpression="aql:self.destination">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='purple']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="otherservicelocationedge" sourceMapping="//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='otherservicenode']" targetMapping="//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='locationnode']" targetFinderExpression="aql:self.location">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="triptotravelservice" sourceMapping="//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='tripnode']" targetMapping="//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='travelservicenode']" targetFinderExpression="aql:self.service">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='orange']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="triptootherserviceedge" sourceMapping="//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='tripnode']" targetMapping="//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='otherservicenode']" targetFinderExpression="aql:self.service">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="TripModelDesign.Services"/>
+  </ownedViewpoints>
+</description:Group>

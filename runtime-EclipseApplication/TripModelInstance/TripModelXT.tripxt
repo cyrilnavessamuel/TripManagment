@@ -1,0 +1,18 @@
+TripModel{
+	trip{
+		Trip "nicetochennai"
+		          {
+	                         
+	                         End 25-05-2018 Start 23-05-2018 source "nice" destination "chennai"
+	                 service
+	                  {
+	                    TravelService "nicetoparis"{Cost 800.0 Duration 1 Rating 1 source "nice" destination "paris"},
+		                TravelService "paristochennai" {Cost 540.0 Duration 1 Rating 1 source "paris" destination "chennai"},
+		                 OtherService "stayatparis" {Cost 800.0 Duration 1 Rating 2 location"paris"}
+		               }
+		           }
+		   }
+	      location{
+	             	location "nice",location "paris",location "chennai"
+	               }
+	       }

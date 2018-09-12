@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/trip_model/src-gen" creationIcons="false" editDirectory="/trip_model.edit/src-gen"
+    editorDirectory="/trip_model.editor/src-gen" modelPluginID="trip_model" modelName="Trip_model"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>trip_model.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Trip_model" disposableProviderFactory="true" ecorePackage="trip_model.ecore#/">
+    <genClasses ecoreClass="trip_model.ecore#//Service">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute trip_model.ecore#//Service/Cost"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute trip_model.ecore#//Service/Duration"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute trip_model.ecore#//Service/Rating"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute trip_model.ecore#//Service/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute trip_model.ecore#//Service/Type"/>
+    </genClasses>
+    <genClasses ecoreClass="trip_model.ecore#//OtherService">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference trip_model.ecore#//OtherService/location"/>
+    </genClasses>
+    <genClasses ecoreClass="trip_model.ecore#//TravelService">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference trip_model.ecore#//TravelService/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference trip_model.ecore#//TravelService/destination"/>
+    </genClasses>
+    <genClasses ecoreClass="trip_model.ecore#//Trip">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference trip_model.ecore#//Trip/service"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute trip_model.ecore#//Trip/End"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute trip_model.ecore#//Trip/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference trip_model.ecore#//Trip/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference trip_model.ecore#//Trip/destination"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute trip_model.ecore#//Trip/Start"/>
+    </genClasses>
+    <genClasses ecoreClass="trip_model.ecore#//location">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute trip_model.ecore#//location/name"/>
+    </genClasses>
+    <genClasses ecoreClass="trip_model.ecore#//TripModel">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference trip_model.ecore#//TripModel/trip"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference trip_model.ecore#//TripModel/location"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

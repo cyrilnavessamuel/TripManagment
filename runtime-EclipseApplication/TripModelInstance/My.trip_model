@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trip_model:TripModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:trip_model="http://www.example.org/trip_model">
+  <trip End="0030-11-08T00:00:00.000+0100" name="nicetochennai" source="//@location.0" destination="//@location.2" Start="0029-11-08T00:00:00.000+0100">
+    <service xsi:type="trip_model:TravelService" Cost="800.0" Duration="1" Rating="4" name="nicetoparis" Type="flight" source="//@location.0" destination="//@location.1"/>
+    <service xsi:type="trip_model:TravelService" Cost="540.0" Duration="2" Rating="4" name="paristochennai" Type="flight" source="//@location.1" destination="//@location.2"/>
+    <service xsi:type="trip_model:OtherService" Cost="800.0" Duration="1" Rating="4" name="stayatparis" Type="hotel"/>
+  </trip>
+  <location name="nice"/>
+  <location name="paris"/>
+  <location name="chennai"/>
+</trip_model:TripModel>

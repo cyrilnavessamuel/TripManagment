@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:trip_model="http://www.example.org/trip_model" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_Kvne0GKjEeiwUYpcuJigZw" selectedViews="_L6aeAGKjEeiwUYpcuJigZw" version="12.1.0.201708031200">
+    <semanticResources>My.trip_model</semanticResources>
+    <semanticResources>TripModelXT.tripxt</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_L6aeAGKjEeiwUYpcuJigZw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_dA-WUGKjEeiwUYpcuJigZw" name="new TripModelDiagram" repPath="#_c_DqwGKjEeiwUYpcuJigZw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']"/>
+        <target xmi:type="trip_model:TripModel" href="My.trip_model#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_dAyJEGKjEeiwUYpcuJigZw" name="new TripModelDiagram" uid="_c_DqwGKjEeiwUYpcuJigZw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_dAyJEWKjEeiwUYpcuJigZw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_dAyJEmKjEeiwUYpcuJigZw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_dB15AGKjEeiwUYpcuJigZw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_dB15AWKjEeiwUYpcuJigZw" type="Sirius" element="_dAyJEGKjEeiwUYpcuJigZw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_dCagwGKjEeiwUYpcuJigZw" type="2001" element="_dAyJFGKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_dCsNkGKjEeiwUYpcuJigZw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dCsNkWKjEeiwUYpcuJigZw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dDYKEGKjEeiwUYpcuJigZw" type="3003" element="_dAyJFWKjEeiwUYpcuJigZw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dDYKEWKjEeiwUYpcuJigZw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dDYKEmKjEeiwUYpcuJigZw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_dCagwWKjEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dCagwmKjEeiwUYpcuJigZw" x="162" y="207" width="121" height="67"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_dC_vkGKjEeiwUYpcuJigZw" type="2001" element="_dAyJFmKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_dC_vk2KjEeiwUYpcuJigZw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dC_vlGKjEeiwUYpcuJigZw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dDYKE2KjEeiwUYpcuJigZw" type="3003" element="_dAyJF2KjEeiwUYpcuJigZw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dDYKFGKjEeiwUYpcuJigZw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dDYKFWKjEeiwUYpcuJigZw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_dC_vkWKjEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dC_vkmKjEeiwUYpcuJigZw" x="336" y="204" width="121" height="73"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_dC_vlWKjEeiwUYpcuJigZw" type="2001" element="_dAyJGGKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_dC_vmGKjEeiwUYpcuJigZw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dC_vmWKjEeiwUYpcuJigZw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dDYKFmKjEeiwUYpcuJigZw" type="3003" element="_dAyJGWKjEeiwUYpcuJigZw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dDYKF2KjEeiwUYpcuJigZw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dDYKGGKjEeiwUYpcuJigZw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_dC_vlmKjEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dC_vl2KjEeiwUYpcuJigZw" x="600" y="204" width="121" height="73"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_dDEoEGKjEeiwUYpcuJigZw" type="2001" element="_dAyJGmKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_dDEoE2KjEeiwUYpcuJigZw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dDEoFGKjEeiwUYpcuJigZw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dDeQsGKjEeiwUYpcuJigZw" type="3017" element="_dAyJG2KjEeiwUYpcuJigZw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dDeQsWKjEeiwUYpcuJigZw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dDeQsmKjEeiwUYpcuJigZw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_dDEoEWKjEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dDEoEmKjEeiwUYpcuJigZw" x="168" y="24" width="109" height="97"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_dDF2MGKjEeiwUYpcuJigZw" type="2001" element="_dAyJHGKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_dDF2M2KjEeiwUYpcuJigZw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dDF2NGKjEeiwUYpcuJigZw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dDeQs2KjEeiwUYpcuJigZw" type="3017" element="_dAyJHWKjEeiwUYpcuJigZw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dDeQtGKjEeiwUYpcuJigZw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dDeQtWKjEeiwUYpcuJigZw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_dDF2MWKjEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dDF2MmKjEeiwUYpcuJigZw" x="564" y="24" width="109" height="73"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_dDF2NWKjEeiwUYpcuJigZw" type="2001" element="_dAyJHmKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_dDF2OGKjEeiwUYpcuJigZw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dDF2OWKjEeiwUYpcuJigZw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dDkXUGKjEeiwUYpcuJigZw" type="3017" element="_dAyJH2KjEeiwUYpcuJigZw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dDkXUWKjEeiwUYpcuJigZw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dDkXUmKjEeiwUYpcuJigZw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_dDF2NmKjEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dDF2N2KjEeiwUYpcuJigZw" x="348" y="12" width="121" height="109"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_dDF2OmKjEeiwUYpcuJigZw" type="2001" element="_dAyJIGKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_dDF2PWKjEeiwUYpcuJigZw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dDF2PmKjEeiwUYpcuJigZw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dDkXU2KjEeiwUYpcuJigZw" type="3003" element="_dAyJIWKjEeiwUYpcuJigZw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dDkXVGKjEeiwUYpcuJigZw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dDkXVWKjEeiwUYpcuJigZw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_dDF2O2KjEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dDF2PGKjEeiwUYpcuJigZw" x="360" y="-180" width="109" height="85"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_dB15AmKjEeiwUYpcuJigZw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_4IHiwGKjEeiwUYpcuJigZw" type="4001" element="_4HcNUGKjEeiwUYpcuJigZw" source="_dDF2OmKjEeiwUYpcuJigZw" target="_dCagwGKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_4IMbQGKjEeiwUYpcuJigZw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4IMbQWKjEeiwUYpcuJigZw" x="40" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4INpYGKjEeiwUYpcuJigZw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4INpYWKjEeiwUYpcuJigZw" x="-32" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4INpYmKjEeiwUYpcuJigZw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4INpY2KjEeiwUYpcuJigZw" x="-32" y="13"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_4IHiwWKjEeiwUYpcuJigZw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_4IHiwmKjEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4IHiw2KjEeiwUYpcuJigZw" points="[-23, 43, 175, -338]$[-180, 345, 18, -36]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4If9QGKjEeiwUYpcuJigZw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4If9QWKjEeiwUYpcuJigZw" id="(0.45041322314049587,0.5447761194029851)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_A3d4gGKkEeiwUYpcuJigZw" type="4001" element="_A2-JQGKkEeiwUYpcuJigZw" source="_dDF2OmKjEeiwUYpcuJigZw" target="_dC_vlWKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_A3ixAGKkEeiwUYpcuJigZw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A3ixAWKkEeiwUYpcuJigZw" x="18" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_A3ixAmKkEeiwUYpcuJigZw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A3ixA2KkEeiwUYpcuJigZw" x="-40" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_A3ixBGKkEeiwUYpcuJigZw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A3ixBWKkEeiwUYpcuJigZw" x="-45" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_A3d4gWKkEeiwUYpcuJigZw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_A3d4gmKkEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A3d4g2KkEeiwUYpcuJigZw" points="[27, 43, -219, -335]$[222, 342, -24, -36]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A3j_IGKkEeiwUYpcuJigZw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A3j_IWKkEeiwUYpcuJigZw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ZZ4eYGKkEeiwUYpcuJigZw" type="4001" element="_ZYIx8GKkEeiwUYpcuJigZw" source="_dDEoEGKjEeiwUYpcuJigZw" target="_dCagwGKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_ZZ4eZGKkEeiwUYpcuJigZw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZ4eZWKkEeiwUYpcuJigZw" x="6" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZZ4eZmKkEeiwUYpcuJigZw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZ4eZ2KkEeiwUYpcuJigZw" x="-7" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZZ4eaGKkEeiwUYpcuJigZw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZ4eaWKkEeiwUYpcuJigZw" x="-10" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZZ4eYWKkEeiwUYpcuJigZw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ZZ4eYmKkEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZZ4eY2KkEeiwUYpcuJigZw" points="[-2, 49, 4, -122]$[-5, 135, 1, -36]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZZ4eamKkEeiwUYpcuJigZw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZZ4ea2KkEeiwUYpcuJigZw" id="(0.45041322314049587,0.5447761194029851)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ZZ9W4GKkEeiwUYpcuJigZw" type="4001" element="_ZYIx82KkEeiwUYpcuJigZw" source="_dDF2MGKjEeiwUYpcuJigZw" target="_dC_vkGKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_ZZ9W5GKkEeiwUYpcuJigZw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZ9W5WKkEeiwUYpcuJigZw" x="17" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZZ-lAGKkEeiwUYpcuJigZw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZ-lAWKkEeiwUYpcuJigZw" x="8" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZZ-lAmKkEeiwUYpcuJigZw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZ-lA2KkEeiwUYpcuJigZw" x="-20" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZZ9W4WKkEeiwUYpcuJigZw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ZZ9W4mKkEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZZ9W42KkEeiwUYpcuJigZw" points="[-51, 37, 177, -131]$[-196, 144, 32, -24]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZZ-lBGKkEeiwUYpcuJigZw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZZ-lBWKkEeiwUYpcuJigZw" id="(0.45041322314049587,0.3356164383561644)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ZZ-lBmKkEeiwUYpcuJigZw" type="4001" element="_ZYO4kGKkEeiwUYpcuJigZw" source="_dDEoEGKjEeiwUYpcuJigZw" target="_dC_vkGKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_ZZ-lCmKkEeiwUYpcuJigZw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZ-lC2KkEeiwUYpcuJigZw" x="-19" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZZ-lDGKkEeiwUYpcuJigZw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZ-lDWKkEeiwUYpcuJigZw" x="13" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZZ-lDmKkEeiwUYpcuJigZw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZ-lD2KkEeiwUYpcuJigZw" x="11" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZZ-lB2KkEeiwUYpcuJigZw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ZZ-lCGKkEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZZ-lCWKkEeiwUYpcuJigZw" points="[52, 49, -116, -107]$[142, 132, -26, -24]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZaDdgGKkEeiwUYpcuJigZw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZaDdgWKkEeiwUYpcuJigZw" id="(0.45041322314049587,0.3356164383561644)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ZaDdgmKkEeiwUYpcuJigZw" type="4001" element="_ZYUYImKkEeiwUYpcuJigZw" source="_dDF2MGKjEeiwUYpcuJigZw" target="_dC_vlWKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_ZaDdhmKkEeiwUYpcuJigZw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZaDdh2KkEeiwUYpcuJigZw" x="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZaEroGKkEeiwUYpcuJigZw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZaEroWKkEeiwUYpcuJigZw" x="9" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZaEromKkEeiwUYpcuJigZw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZaEro2KkEeiwUYpcuJigZw" x="-37" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZaDdg2KkEeiwUYpcuJigZw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ZaDdhGKkEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZaDdhWKkEeiwUYpcuJigZw" points="[8, 37, -34, -143]$[33, 144, -9, -36]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZaErpGKkEeiwUYpcuJigZw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZaErpWKkEeiwUYpcuJigZw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_jEbREGKkEeiwUYpcuJigZw" type="4001" element="_jD7h0GKkEeiwUYpcuJigZw" source="_dDF2NWKjEeiwUYpcuJigZw" target="_dC_vkGKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_jEgJkGKkEeiwUYpcuJigZw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jEgJkWKkEeiwUYpcuJigZw" x="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jEgJkmKkEeiwUYpcuJigZw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jEgJk2KkEeiwUYpcuJigZw" x="15" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jEgJlGKkEeiwUYpcuJigZw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jEgJlWKkEeiwUYpcuJigZw" x="-24" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_jEbREWKkEeiwUYpcuJigZw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_jEbREmKkEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jEbRE2KkEeiwUYpcuJigZw" points="[-11, 55, 19, -107]$[-26, 138, 4, -24]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jEhXsGKkEeiwUYpcuJigZw" id="(0.5991735537190083,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jEhXsWKkEeiwUYpcuJigZw" id="(0.45041322314049587,0.3356164383561644)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_7w3gMGKlEeiwUYpcuJigZw" type="4001" element="_7vlt0GKlEeiwUYpcuJigZw" source="_dDF2OmKjEeiwUYpcuJigZw" target="_dDEoEGKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_7w8YsGKlEeiwUYpcuJigZw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7w8YsWKlEeiwUYpcuJigZw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7w9m0GKlEeiwUYpcuJigZw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7w9m0WKlEeiwUYpcuJigZw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7w9m0mKlEeiwUYpcuJigZw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7w9m02KlEeiwUYpcuJigZw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_7w3gMWKlEeiwUYpcuJigZw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_7w3gMmKlEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7w3gM2KlEeiwUYpcuJigZw" points="[0, 0, 198, -204]$[-198, 204, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7w9m1GKlEeiwUYpcuJigZw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7w9m1WKlEeiwUYpcuJigZw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_7w9m1mKlEeiwUYpcuJigZw" type="4001" element="_7vm78mKlEeiwUYpcuJigZw" source="_dDF2OmKjEeiwUYpcuJigZw" target="_dDF2MGKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_7w9m2mKlEeiwUYpcuJigZw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7w9m22KlEeiwUYpcuJigZw" x="1" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7w9m3GKlEeiwUYpcuJigZw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7w9m3WKlEeiwUYpcuJigZw" x="-4" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7w9m3mKlEeiwUYpcuJigZw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7w9m32KlEeiwUYpcuJigZw" x="-4" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_7w9m12KlEeiwUYpcuJigZw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_7w9m2GKlEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7w9m2WKlEeiwUYpcuJigZw" points="[44, 43, -160, -155]$[166, 162, -38, -36]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7w9m4GKlEeiwUYpcuJigZw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7xCfUGKlEeiwUYpcuJigZw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_HyXjMGKmEeiwUYpcuJigZw" type="4001" element="_HxTzQGKmEeiwUYpcuJigZw" source="_dDF2OmKjEeiwUYpcuJigZw" target="_dDF2NWKjEeiwUYpcuJigZw">
+          <children xmi:type="notation:Node" xmi:id="_HyXjNGKmEeiwUYpcuJigZw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HyXjNWKmEeiwUYpcuJigZw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HyXjNmKmEeiwUYpcuJigZw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HyXjN2KmEeiwUYpcuJigZw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HyXjOGKmEeiwUYpcuJigZw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HyXjOWKmEeiwUYpcuJigZw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_HyXjMWKmEeiwUYpcuJigZw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HyXjMmKmEeiwUYpcuJigZw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HyXjM2KmEeiwUYpcuJigZw" points="[0, 0, 18, -192]$[-18, 192, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HyXjOmKmEeiwUYpcuJigZw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HyXjO2KmEeiwUYpcuJigZw" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dAyJFGKjEeiwUYpcuJigZw" name="nice" incomingEdges="_4HcNUGKjEeiwUYpcuJigZw _ZYIx8GKkEeiwUYpcuJigZw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="trip_model:location" href="My.trip_model#//@location.0"/>
+      <semanticElements xmi:type="trip_model:location" href="My.trip_model#//@location.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_dAyJFWKjEeiwUYpcuJigZw" labelPosition="node" color="173,127,168">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='locationnode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='locationnode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dAyJFmKjEeiwUYpcuJigZw" name="paris" incomingEdges="_ZYIx82KkEeiwUYpcuJigZw _ZYO4kGKkEeiwUYpcuJigZw _jD7h0GKkEeiwUYpcuJigZw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="trip_model:location" href="My.trip_model#//@location.1"/>
+      <semanticElements xmi:type="trip_model:location" href="My.trip_model#//@location.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_dAyJF2KjEeiwUYpcuJigZw" labelPosition="node" color="173,127,168">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='locationnode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='locationnode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dAyJGGKjEeiwUYpcuJigZw" name="chennai" incomingEdges="_A2-JQGKkEeiwUYpcuJigZw _ZYUYImKkEeiwUYpcuJigZw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="trip_model:location" href="My.trip_model#//@location.2"/>
+      <semanticElements xmi:type="trip_model:location" href="My.trip_model#//@location.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_dAyJGWKjEeiwUYpcuJigZw" labelPosition="node" color="173,127,168">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='locationnode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='locationnode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dAyJGmKjEeiwUYpcuJigZw" name="nicetoparis" outgoingEdges="_ZYIx8GKkEeiwUYpcuJigZw _ZYO4kGKkEeiwUYpcuJigZw" incomingEdges="_7vlt0GKlEeiwUYpcuJigZw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="trip_model:TravelService" href="My.trip_model#//@trip.0/@service.0"/>
+      <semanticElements xmi:type="trip_model:TravelService" href="My.trip_model#//@trip.0/@service.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Lozenge" xmi:id="_dAyJG2KjEeiwUYpcuJigZw" labelPosition="node" color="239,41,41">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='travelservicenode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='travelservicenode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dAyJHGKjEeiwUYpcuJigZw" name="paristochennai" outgoingEdges="_ZYIx82KkEeiwUYpcuJigZw _ZYUYImKkEeiwUYpcuJigZw" incomingEdges="_7vm78mKlEeiwUYpcuJigZw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="trip_model:TravelService" href="My.trip_model#//@trip.0/@service.1"/>
+      <semanticElements xmi:type="trip_model:TravelService" href="My.trip_model#//@trip.0/@service.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Lozenge" xmi:id="_dAyJHWKjEeiwUYpcuJigZw" labelPosition="node" color="239,41,41">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='travelservicenode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='travelservicenode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dAyJHmKjEeiwUYpcuJigZw" name="stayatparis" outgoingEdges="_jD7h0GKkEeiwUYpcuJigZw" incomingEdges="_HxTzQGKmEeiwUYpcuJigZw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="trip_model:OtherService" href="My.trip_model#//@trip.0/@service.2"/>
+      <semanticElements xmi:type="trip_model:OtherService" href="My.trip_model#//@trip.0/@service.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Lozenge" xmi:id="_dAyJH2KjEeiwUYpcuJigZw" labelPosition="node" color="194,239,255">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='otherservicenode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='otherservicenode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dAyJIGKjEeiwUYpcuJigZw" name="nicetochennai" outgoingEdges="_4HcNUGKjEeiwUYpcuJigZw _A2-JQGKkEeiwUYpcuJigZw _7vlt0GKlEeiwUYpcuJigZw _7vm78mKlEeiwUYpcuJigZw _HxTzQGKmEeiwUYpcuJigZw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="trip_model:Trip" href="My.trip_model#//@trip.0"/>
+      <semanticElements xmi:type="trip_model:Trip" href="My.trip_model#//@trip.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_dAyJIWKjEeiwUYpcuJigZw" labelPosition="node" color="252,233,79">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='tripnode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@nodeMappings[name='tripnode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_4HcNUGKjEeiwUYpcuJigZw" sourceNode="_dAyJIGKjEeiwUYpcuJigZw" targetNode="_dAyJFGKjEeiwUYpcuJigZw">
+      <target xmi:type="trip_model:Trip" href="My.trip_model#//@trip.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_4HiT8GKjEeiwUYpcuJigZw" size="2" strokeColor="204,242,166">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='tripsourceedge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_4HiT8WKjEeiwUYpcuJigZw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='tripsourceedge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_A2-JQGKkEeiwUYpcuJigZw" sourceNode="_dAyJIGKjEeiwUYpcuJigZw" targetNode="_dAyJGGKjEeiwUYpcuJigZw">
+      <target xmi:type="trip_model:Trip" href="My.trip_model#//@trip.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_A2-JQWKkEeiwUYpcuJigZw" size="2" strokeColor="173,127,168">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='tripdestinationedge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_A2-JQmKkEeiwUYpcuJigZw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='tripdestinationedge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ZYIx8GKkEeiwUYpcuJigZw" sourceNode="_dAyJGmKjEeiwUYpcuJigZw" targetNode="_dAyJFGKjEeiwUYpcuJigZw">
+      <target xmi:type="trip_model:TravelService" href="My.trip_model#//@trip.0/@service.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ZYIx8WKkEeiwUYpcuJigZw" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='travelservicesourceedge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ZYIx8mKkEeiwUYpcuJigZw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='travelservicesourceedge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ZYIx82KkEeiwUYpcuJigZw" sourceNode="_dAyJHGKjEeiwUYpcuJigZw" targetNode="_dAyJFmKjEeiwUYpcuJigZw">
+      <target xmi:type="trip_model:TravelService" href="My.trip_model#//@trip.0/@service.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ZYNqcGKkEeiwUYpcuJigZw" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='travelservicesourceedge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ZYNqcWKkEeiwUYpcuJigZw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='travelservicesourceedge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ZYO4kGKkEeiwUYpcuJigZw" sourceNode="_dAyJGmKjEeiwUYpcuJigZw" targetNode="_dAyJFmKjEeiwUYpcuJigZw">
+      <target xmi:type="trip_model:TravelService" href="My.trip_model#//@trip.0/@service.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ZYUYIGKkEeiwUYpcuJigZw" size="2" strokeColor="173,127,168">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='travelservicedestinationedge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ZYUYIWKkEeiwUYpcuJigZw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='travelservicedestinationedge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ZYUYImKkEeiwUYpcuJigZw" sourceNode="_dAyJHGKjEeiwUYpcuJigZw" targetNode="_dAyJGGKjEeiwUYpcuJigZw">
+      <target xmi:type="trip_model:TravelService" href="My.trip_model#//@trip.0/@service.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ZYVmQGKkEeiwUYpcuJigZw" size="2" strokeColor="173,127,168">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='travelservicedestinationedge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ZYVmQWKkEeiwUYpcuJigZw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='travelservicedestinationedge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_jD7h0GKkEeiwUYpcuJigZw" sourceNode="_dAyJHmKjEeiwUYpcuJigZw" targetNode="_dAyJFmKjEeiwUYpcuJigZw">
+      <target xmi:type="trip_model:OtherService" href="My.trip_model#//@trip.0/@service.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_jD7h0WKkEeiwUYpcuJigZw" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='otherservicelocationedge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_jD7h0mKkEeiwUYpcuJigZw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='otherservicelocationedge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_7vlt0GKlEeiwUYpcuJigZw" sourceNode="_dAyJIGKjEeiwUYpcuJigZw" targetNode="_dAyJGmKjEeiwUYpcuJigZw">
+      <target xmi:type="trip_model:Trip" href="My.trip_model#//@trip.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_7vm78GKlEeiwUYpcuJigZw" size="2" strokeColor="252,175,62">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='triptotravelservice']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_7vm78WKlEeiwUYpcuJigZw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='triptotravelservice']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_7vm78mKlEeiwUYpcuJigZw" sourceNode="_dAyJIGKjEeiwUYpcuJigZw" targetNode="_dAyJHGKjEeiwUYpcuJigZw">
+      <target xmi:type="trip_model:Trip" href="My.trip_model#//@trip.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_7vm782KlEeiwUYpcuJigZw" size="2" strokeColor="252,175,62">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='triptotravelservice']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_7vm79GKlEeiwUYpcuJigZw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='triptotravelservice']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_HxTzQGKmEeiwUYpcuJigZw" sourceNode="_dAyJIGKjEeiwUYpcuJigZw" targetNode="_dAyJHmKjEeiwUYpcuJigZw">
+      <target xmi:type="trip_model:Trip" href="My.trip_model#//@trip.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_HxTzQWKmEeiwUYpcuJigZw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='triptootherserviceedge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_HxTzQmKmEeiwUYpcuJigZw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer/@edgeMappings[name='triptootherserviceedge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_dAyJImKjEeiwUYpcuJigZw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/TripModelDesign/description/TripModelDesign.odesign#//@ownedViewpoints[name='TripModelViewpoint']/@ownedRepresentations[name='TripModelDiagram']/@defaultLayer"/>
+    <target xmi:type="trip_model:TripModel" href="My.trip_model#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
